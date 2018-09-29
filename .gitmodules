@@ -1,0 +1,6 @@
+[submodule "Carthage/Checkouts/SwiftEntryKit"]
+	path = Carthage/Checkouts/SwiftEntryKit
+	url = https://github.com/huri000/SwiftEntryKit.git
+[submodule "Carthage/Checkouts/QuickLayout"]
+	path = Carthage/Checkouts/QuickLayout
+	url = https://github.com/huri000/QuickLayout.git
