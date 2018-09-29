@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14A47FD3215F60E400184465 /* CGRect+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DCF1DA215F60C10032E3C4 /* CGRect+Utils.swift */; };
+		14A47FD4215F60E400184465 /* UIScreen+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DCF1DB215F60C10032E3C4 /* UIScreen+Utils.swift */; };
+		14A47FD5215F60E400184465 /* Object+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DCF1DC215F60C10032E3C4 /* Object+ClassName.swift */; };
+		14A47FD6215F60E400184465 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DCF1DD215F60C10032E3C4 /* UIView+Nib.swift */; };
+		14DCF1B9215F58E80032E3C4 /* NibExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DCF1B1215F58E80032E3C4 /* NibExampleView.swift */; };
+		14DCF1BA215F58E80032E3C4 /* NibExampleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14DCF1B2215F58E80032E3C4 /* NibExampleView.xib */; };
+		14DCF1CA215F59F90032E3C4 /* SwiftEntryKitAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DCF1C9215F59F90032E3C4 /* SwiftEntryKitAdapter.swift */; };
+		14DCF1D6215F5ED70032E3C4 /* QuickLayout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 14DCF1D4215F5ED70032E3C4 /* QuickLayout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		14DCF1D7215F5ED70032E3C4 /* SwiftEntryKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 14DCF1D5215F5ED70032E3C4 /* SwiftEntryKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		14F16D12215F543B000C0D2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F16D11215F543B000C0D2B /* AppDelegate.m */; };
 		14F16D15215F543B000C0D2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F16D14215F543B000C0D2B /* ViewController.m */; };
 		14F16D18215F543B000C0D2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F16D16215F543B000C0D2B /* Main.storyboard */; };
@@ -15,7 +24,33 @@
 		14F16D20215F543D000C0D2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F16D1F215F543D000C0D2B /* main.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		14DCF1D3215F5E8A0032E3C4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				14DCF1D6215F5ED70032E3C4 /* QuickLayout.framework in Embed Frameworks */,
+				14DCF1D7215F5ED70032E3C4 /* SwiftEntryKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		14DCF1A2215F58260032E3C4 /* SwiftEntryKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftEntryKit.framework; path = Carthage/Build/iOS/SwiftEntryKit.framework; sourceTree = "<group>"; };
+		14DCF1A3215F58270032E3C4 /* QuickLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLayout.framework; path = Carthage/Build/iOS/QuickLayout.framework; sourceTree = "<group>"; };
+		14DCF1B1215F58E80032E3C4 /* NibExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibExampleView.swift; sourceTree = "<group>"; };
+		14DCF1B2215F58E80032E3C4 /* NibExampleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NibExampleView.xib; sourceTree = "<group>"; };
+		14DCF1C9215F59F90032E3C4 /* SwiftEntryKitAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEntryKitAdapter.swift; sourceTree = "<group>"; };
+		14DCF1D4215F5ED70032E3C4 /* QuickLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLayout.framework; path = Carthage/Build/iOS/QuickLayout.framework; sourceTree = "<group>"; };
+		14DCF1D5215F5ED70032E3C4 /* SwiftEntryKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftEntryKit.framework; path = Carthage/Build/iOS/SwiftEntryKit.framework; sourceTree = "<group>"; };
+		14DCF1DA215F60C10032E3C4 /* CGRect+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Utils.swift"; sourceTree = "<group>"; };
+		14DCF1DB215F60C10032E3C4 /* UIScreen+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Utils.swift"; sourceTree = "<group>"; };
+		14DCF1DC215F60C10032E3C4 /* Object+ClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Object+ClassName.swift"; sourceTree = "<group>"; };
+		14DCF1DD215F60C10032E3C4 /* UIView+Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
 		14F16D0D215F543B000C0D2B /* ObjcEntryKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjcEntryKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F16D10215F543B000C0D2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14F16D11215F543B000C0D2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +61,7 @@
 		14F16D1C215F543D000C0D2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14F16D1E215F543D000C0D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14F16D1F215F543D000C0D2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14F16D29215F5699000C0D2B /* ObjcEntryKitExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjcEntryKitExample-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,11 +75,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14DCF1A1215F58260032E3C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14DCF1D4215F5ED70032E3C4 /* QuickLayout.framework */,
+				14DCF1D5215F5ED70032E3C4 /* SwiftEntryKit.framework */,
+				14DCF1A3215F58270032E3C4 /* QuickLayout.framework */,
+				14DCF1A2215F58260032E3C4 /* SwiftEntryKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14DCF1B0215F58E80032E3C4 /* NibExampleView */ = {
+			isa = PBXGroup;
+			children = (
+				14DCF1B1215F58E80032E3C4 /* NibExampleView.swift */,
+				14DCF1B2215F58E80032E3C4 /* NibExampleView.xib */,
+			);
+			path = NibExampleView;
+			sourceTree = "<group>";
+		};
+		14DCF1D9215F60C10032E3C4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				14DCF1DA215F60C10032E3C4 /* CGRect+Utils.swift */,
+				14DCF1DB215F60C10032E3C4 /* UIScreen+Utils.swift */,
+				14DCF1DC215F60C10032E3C4 /* Object+ClassName.swift */,
+				14DCF1DD215F60C10032E3C4 /* UIView+Nib.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		14F16D04215F543A000C0D2B = {
 			isa = PBXGroup;
 			children = (
 				14F16D0F215F543B000C0D2B /* ObjcEntryKitExample */,
 				14F16D0E215F543B000C0D2B /* Products */,
+				14DCF1A1215F58260032E3C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,11 +130,15 @@
 				14F16D11215F543B000C0D2B /* AppDelegate.m */,
 				14F16D13215F543B000C0D2B /* ViewController.h */,
 				14F16D14215F543B000C0D2B /* ViewController.m */,
+				14DCF1C9215F59F90032E3C4 /* SwiftEntryKitAdapter.swift */,
+				14DCF1D9215F60C10032E3C4 /* Extensions */,
+				14DCF1B0215F58E80032E3C4 /* NibExampleView */,
 				14F16D16215F543B000C0D2B /* Main.storyboard */,
 				14F16D19215F543D000C0D2B /* Assets.xcassets */,
 				14F16D1B215F543D000C0D2B /* LaunchScreen.storyboard */,
 				14F16D1E215F543D000C0D2B /* Info.plist */,
 				14F16D1F215F543D000C0D2B /* main.m */,
+				14F16D29215F5699000C0D2B /* ObjcEntryKitExample-Bridging-Header.h */,
 			);
 			path = ObjcEntryKitExample;
 			sourceTree = "<group>";
@@ -81,6 +153,7 @@
 				14F16D09215F543A000C0D2B /* Sources */,
 				14F16D0A215F543A000C0D2B /* Frameworks */,
 				14F16D0B215F543A000C0D2B /* Resources */,
+				14DCF1D3215F5E8A0032E3C4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -102,6 +175,7 @@
 				TargetAttributes = {
 					14F16D0C215F543A000C0D2B = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -131,6 +205,7 @@
 				14F16D1D215F543D000C0D2B /* LaunchScreen.storyboard in Resources */,
 				14F16D1A215F543D000C0D2B /* Assets.xcassets in Resources */,
 				14F16D18215F543B000C0D2B /* Main.storyboard in Resources */,
+				14DCF1BA215F58E80032E3C4 /* NibExampleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +218,13 @@
 			files = (
 				14F16D15215F543B000C0D2B /* ViewController.m in Sources */,
 				14F16D20215F543D000C0D2B /* main.m in Sources */,
+				14A47FD6215F60E400184465 /* UIView+Nib.swift in Sources */,
+				14A47FD5215F60E400184465 /* Object+ClassName.swift in Sources */,
+				14A47FD4215F60E400184465 /* UIScreen+Utils.swift in Sources */,
 				14F16D12215F543B000C0D2B /* AppDelegate.m in Sources */,
+				14DCF1CA215F59F90032E3C4 /* SwiftEntryKitAdapter.swift in Sources */,
+				14DCF1B9215F58E80032E3C4 /* NibExampleView.swift in Sources */,
+				14A47FD3215F60E400184465 /* CGRect+Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +285,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -224,6 +306,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -262,6 +345,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -275,6 +359,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -283,8 +368,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = D2LR97ELBQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ObjcEntryKitExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -292,6 +383,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.huri.ObjcEntryKitExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ObjcEntryKitExample/ObjcEntryKitExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -300,8 +394,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = D2LR97ELBQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ObjcEntryKitExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +409,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.huri.ObjcEntryKitExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ObjcEntryKitExample/ObjcEntryKitExample-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

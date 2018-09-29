@@ -7,23 +7,22 @@
 //
 
 #import "ViewController.h"
+#import "ObjcEntryKitExample-Swift.h"
 
 @interface ViewController ()
-
 @end
 
-@implementation ViewController
+@implementation ViewController {
+    SwiftEntryKitAdapter *adapter;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    adapter = [[SwiftEntryKitAdapter alloc] init];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)displayButtonPressed:(id)sender {
+    [adapter displayCustomAttributes];
 }
-
 
 @end
