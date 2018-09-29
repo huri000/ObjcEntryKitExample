@@ -1,5 +1,5 @@
 # ObjcEntryKitExample
-This project demonstrates an integration of SwiftEntryKit into an existing Objective C project.
+This project demonstrates integration of SwiftEntryKit into an existing Objective C project.
 
 ## Installation
 
